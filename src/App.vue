@@ -1,17 +1,17 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <TampilkanList />
   </div>
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import TampilkanList from './components/TampilkanList.vue'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    TampilkanList
   }
 }
 </script>
@@ -24,5 +24,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 30px;
 }
+
 </style>
